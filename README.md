@@ -18,20 +18,23 @@ A.
 5. Print the eigenvalues and eigenvectors.
 
 ## Program:
-~~~
 import numpy as np
 
-A = np.array([[2, 2], 
-              [1, 3]])
+
+A = np.array([[2, -3, 0],
+              [2, -5, 0],
+              [0,  0, 3]])
+
 
 eigenvalues, eigenvectors = np.linalg.eig(A)
 
-print("Eigen values are", eigenvalues,"and",end=" ")
-print("Eigen Vectors are", eigenvectors)
-~~~
+
+print(f"Eigen values are {eigenvalues} and Eigen Vectors are {eigenvectors}")
+
 
 ## Output:
-![image](https://github.com/user-attachments/assets/055cf021-6aff-40f6-95ac-60cf4efa2691)
+![Screenshot 2025-04-11 220123](https://github.com/user-attachments/assets/6fd8a43c-600e-421b-8e05-3f8f83e068a9)
+
 
 ## Result:
 Thus the Eigenvalue and Eigenvector is successfully solved using python program
